@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import * as fs from 'fs';
-import { Purchase } from './purchases.interface';
+import { Purchase } from './purchase.interface';
 
 @Injectable()
 export class PurchaseService {
