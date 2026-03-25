@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
-import { PurchaseService } from './purechses.service';
-import { PurchaseController } from './purechases.controller';
+import { PurchaseService } from './purechse.service';
+import { PurchaseController } from './purechase.controller';
 
 @Module({
   controllers: [PurchaseController],
