@@ -12,6 +12,5 @@ export class PurchaseService {
   findOne(id: number) {
     const DATA = fs.readFileSync('data/purchases.json', 'utf-8');
     const data = JSON.parse(DATA) as Purchase[];
-   
 }
 }
