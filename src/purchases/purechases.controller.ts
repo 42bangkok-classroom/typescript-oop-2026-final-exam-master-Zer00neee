@@ -6,7 +6,7 @@ export class PurchaseController {
   constructor(private readonly purchaseSerice: PurchaseService) {}
 
   @Get()
-  getProducts() {
+  getPurechse() {
     return {
       success: true,
       data: this.purchaseSerice.findAll(),
