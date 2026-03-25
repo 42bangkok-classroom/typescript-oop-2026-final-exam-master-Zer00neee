@@ -9,4 +9,7 @@ export class PurchaseService {
     const data = JSON.parse(DATA) as Purchase[];
     return data;
   }
+  findOne() : Purchase[] {
+
+  }
 }
