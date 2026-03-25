@@ -13,4 +13,10 @@ export class PurchaseController {
       message: 'Fetched products successfully',
     };
   }
+  @Get(':id')
+  findOne(id: number) {
+    return {
+      data: this.purchaseSerice.findOne,
+    };
+}
 }
