@@ -1,5 +1,5 @@
 import { Controller, Get } from '@nestjs/common';
-import { PurchaseService } from './purchse.service';
+import { PurchaseService } from './purchase.service';
 
 @Controller('products')
 export class PurchaseController {
