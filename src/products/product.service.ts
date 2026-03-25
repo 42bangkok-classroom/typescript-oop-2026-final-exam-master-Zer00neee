@@ -1,13 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import * as fs from 'fs';
-
-export interface Product {
-    id: number;
-    name: string;
-    price: number;
-    stock: number;
-    description: string;
-}
+import { Product } from './product.interface';
 
 @Injectable()
 export class ProductService {
