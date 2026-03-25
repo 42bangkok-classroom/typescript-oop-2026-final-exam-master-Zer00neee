@@ -4,13 +4,9 @@ import { Product } from './product.interface';
 
 @Injectable()
 export class ProductService {
-  findAll(): { success: boolean; data: Product[]; message: string } {
+  findAll(): Product[] {
     const DATA = fs.readFileSync('data/products.json', 'utf-8');
     const data = JSON.parse(DATA) as Product[];
-    return {
-      success: true,
-      data: data,
-      message: 'Fetched products successfully',
-    };
+    return data;
   }
 }
