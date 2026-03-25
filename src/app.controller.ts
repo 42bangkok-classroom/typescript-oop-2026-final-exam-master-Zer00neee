@@ -10,8 +10,7 @@ export class AppController {
     success: boolean;
     data: { service: string; version: string };
     message: string;
-  }
-  {
+  } {
     return this.appService.getHello();
   }
 }
